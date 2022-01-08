@@ -154696,6 +154696,6 @@ const palavras = [
   ];
   
   const words = {}
-  export const cincoLetras = palavras.filter((word) => word.length === 5).forEach((word) =>words[word] = true)
+  export const cincoLetras = palavras.filter((word) => word.length === 5).forEach((word) =>words[word.toLowerCase()] = true)
 
 export default words
